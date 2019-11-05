@@ -15,7 +15,7 @@ function App() {
             <H1>Best News Channels in India.</H1>
             <ChannelsList />
             <CreateChannel />
-            {/* <Notification /> */}
+            <Notification />
         </div>
     );
 }
