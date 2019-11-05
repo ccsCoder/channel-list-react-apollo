@@ -1,5 +1,5 @@
 {
-  "name": "channel-list-app",
+  "name": "graphql-channels",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
