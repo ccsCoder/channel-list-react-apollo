@@ -14,7 +14,6 @@ const CREATE_CHANNEL_MUTATION = gql`
 `;
 
 
-
 const CreateChannel = () => {
     const [addChannel] = useMutation(CREATE_CHANNEL_MUTATION);
 
