@@ -23,14 +23,16 @@ const CreateChannel = () => {
             addChannel({
                 variables: { name: evt.target.value }
             })
-            .then( res => {
+            .then(res => {
+                const database = window.firebase.database();
+                database.ref('/').set(evt.target.value);
                 evt.target.value = '';
             });
         }
     };
 
     const CreateChannelInput = styled.input`
-        width: 60%;
+        width: 40%;
         height: 40px;
         border: 1px solid tomato;
         border-radius: 10px;
